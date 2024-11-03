@@ -1,0 +1,141 @@
+html{
+    height: 100px;
+    background-color: #e9d8f8 ;
+}
+header {
+    background-color: #E69957;
+    color: black;
+    width: 100%;
+    height: 80px;
+  }
+h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+  }
+  nav{
+    width: 100%;
+    background-color:#E5E37B ;
+  }
+  nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2B7FFC;
+  }
+  nav li{
+    float: left;
+  }
+  nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none ;
+  }
+  .wrapper{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: #dfbdf3;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+  }
+  article{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 400px;
+    height: 420px;
+    background-color: #dbbeec;
+  }
+  aside{
+    margin: 10px;
+    flex: 1 0 150px;
+    height: 400px;
+    background-color: #FF78C8;
+    border-radius: 30px;
+    border: 3px solid #6B2BFC;
+    display: block;
+    overflow: auto;
+  }
+  aside li{
+    margin: 20px;
+  }
+  .infobox{
+    width: 300px;
+    height:420px;
+    border-radius: 10px;
+    border:4px solid #6B2BFC;
+    margin: 5px;
+  }
+  h2{
+    margin-bottom: 3px;
+    margin-left: 10px;
+  }
+  h3{
+    font-size:large;
+    font-style: fantasy;
+    margin-top: -1%;
+    margin-left: 10px;
+  }
+  .infobox li a{
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+   }
+   li{    
+    list-style-type: none;
+    margin-top: 5px;
+    
+   }
+   p{
+    margin:10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    margin-top: -10px;
+   }
+   input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+   }
+  .aboutbox{
+    width:400px;
+    height:330px;
+    border-radius: 20px;
+    border: 4px solid #2B7FFC;
+    margin: 5px;
+  }
+  footer{
+    background-color: #d6a9f0;
+    text-align: left;
+    color: black;
+    width: 100%;
+    height: 40px;
+  }
+  @media screen and (max-width: 670px) { 
+    .wrapper{
+        height: auto;
+        flex-direction: column;
+    }
+    artitcle{
+        height: auto;
+        width: 100%;
+    }
+    h1{
+        font-size: 1.2em;
+    }
+    .infobox{
+        width: 95%;
+        height: 80px;
+    }
+    
+  }
